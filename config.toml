@@ -1,0 +1,18 @@
+baseURL = "https://philm.xyz/"
+languageCode = "en-us"
+title = "blog!"
+theme = "casper"
+paginate = 10
+canonifyurls = true
+
+[params]
+#description = "Topics someone such as myself would write about"
+cover = "images/guitar.jpg"
+#githubName = ""
+hjsStyle = "default"
+
+[[menu.main]]
+  name = "Home"
+  weight = -120
+  identifier = "blog"
+  url = "/"
